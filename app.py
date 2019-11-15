@@ -9,7 +9,7 @@ import json
 
 from info_model import InfoModel
 
-EXE_PATH = 'chromedriver.exe'
+EXE_PATH = './chromedriver'
 driver = webdriver.Chrome(executable_path=EXE_PATH)
 
 url = 'https://www.airbnb.co.uk/rooms/28299515?location=London%2C%20United%20Kingdom&toddlers=0' \
